@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gray scale</title>
+    <style>
+.box{
+    border: 2px solid red;
+    height: 400px;
+    width: 400px;
+}
+.box>img{
+    height: 60%;
+    width: 70%;
+    margin-left: 40px;
+
+}
+.box>h1{
+    text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+          text-decoration: underline;
+  
+}
+.img:hover{
+    filter:grayscale(1);
+    transition: 1s;
+}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Hover to Have a Gray Scale Look</h1>
+        <img class="img"
+      src="https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2020/01/22185942/Bill-Gates.jpg"
+      alt="Bill Gates"
+    />
+    </div>
+</body>
+</html>
